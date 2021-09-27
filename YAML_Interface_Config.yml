@@ -1,0 +1,15 @@
+interface:
+  ConfigIf-Configuration:
+    description:
+      DescriptionBeTruncatedTo200Characters: ForTesting
+    duplex:
+      auto: ''
+    ip:
+      address:
+        IPAddress: 172.16.0.2
+        IPSubnetMask: 255.255.255.0
+    media-type:
+      rj45: ''
+    speed:
+      auto: ''
+  Param: GigabitEthernet0/0

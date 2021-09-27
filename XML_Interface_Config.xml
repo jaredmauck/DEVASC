@@ -1,0 +1,9 @@
+<interface><Param>GigabitEthernet0/0</Param>
+<ConfigIf-Configuration>
+<description><DescriptionBeTruncatedTo200Characters>ForTesting</DescriptionBeTruncatedTo200Characters></description>
+<ip><address><IPAddress>10.10.10.10</IPAddress><IPSubnetMask>255.255.255.0</IPSubnetMask></address></ip>
+<duplex><auto/></duplex>
+<speed><auto/></speed>
+<media-type><rj45/></media-type>
+</ConfigIf-Configuration>
+</interface>
