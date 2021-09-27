@@ -1,6 +1,6 @@
 import yaml
 
-with open("YAML_Interface_Config.yml") as data:
+with open('yaml_interface_config.yaml') as data:
     yaml_python = yaml.load(data.read(), Loader=yaml.FullLoader)
     print(yaml_python)
 
