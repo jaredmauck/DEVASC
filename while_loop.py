@@ -1,3 +1,5 @@
+from rich import print
+
 count = 1
 
 while count < 10:

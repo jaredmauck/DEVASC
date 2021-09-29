@@ -1,3 +1,6 @@
+from rich import print
+
+
 #single line comment
 
 print(1) #works after code
