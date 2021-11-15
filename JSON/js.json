@@ -1,0 +1,29 @@
+[
+  {
+    "version": "16.12.4",
+    "rommon": "IOS-XE",
+    "hostname": "YHT-IDF44-01",
+    "uptime": "9 weeks, 5 days, 21 hours, 20 minutes",
+    "uptime_years": "",
+    "uptime_weeks": "9",
+    "uptime_days": "5",
+    "uptime_hours": "21",
+    "uptime_minutes": "20",
+    "reload_reason": "PowerOn",
+    "running_image": "packages.conf",
+    "hardware": [
+      "C9300-48P",
+      "C9300-48P"
+    ],
+    "serial": [
+      "FJC25191K4S",
+      "FJC25191K8X"
+    ],
+    "config_register": "0x102",
+    "mac": [
+      "4c:5d:3c:91:39:00",
+      "4c:5d:3c:91:60:80"
+    ],
+    "restarted": "11:56:09 PDT Thu Jul 8 2021"
+  }
+]
