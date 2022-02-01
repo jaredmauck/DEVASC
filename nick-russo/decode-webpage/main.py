@@ -5,9 +5,7 @@ from bs4 import BeautifulSoup
 url = "https://artofnetworkengineering.com/category/podcast/"
 
 payload={}
-headers = {
-  'Cookie': 'nyt-a=_T1sbp6kZesZuFCI48EK4D; nyt-purr=cfshcfhssckf'
-}
+headers = {}
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
