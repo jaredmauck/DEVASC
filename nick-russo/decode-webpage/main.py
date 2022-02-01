@@ -1,20 +1,19 @@
 import requests
-import json
-import xmltojson
+from bs4 import BeautifulSoup
 
-url = "http://njrusmc.net/"
+# url = "https://nytimes.com/"
+url = "https://artofnetworkengineering.com/category/podcast/"
 
 payload={}
-headers = {}
+headers = {
+  'Cookie': 'nyt-a=_T1sbp6kZesZuFCI48EK4D; nyt-purr=cfshcfhssckf'
+}
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-xml_2_json = xmltojson.parse(response.text)
 
-output = json.dumps(xml_2_json)
+soup = BeautifulSoup(response.text, "html.parser")
+header = soup("h2", {"class": "entry-title"})
 
-output2 = json.loads(output)
-
-output_dict = json.loads(output2)
-
-print(output_dict["html"]["body"]["h1"])
+for h in header:
+    print(h.a.string)
